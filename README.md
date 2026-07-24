@@ -14,21 +14,26 @@ Proyecto para el curso de Desarrollo Web. Implementa la misma operación
   - `org.json:json` (20250107) — manejo de JSON para el servicio REST
 
  ## Estructura del proyecto
+# Estructura del proyecto
 
-\`\`\`
+```text
 comparacion-soap-rest-Naser/
 ├── pom.xml
 ├── README.md
 ├── .gitignore
-├── src/main/java/com/umg/
-│   ├── soap/
-│   │   ├── SumaServicio.java      # Lógica del servicio SOAP (JAX-WS, Code First)
-│   │   └── PublicadorSoap.java    # Publica/arranca el servicio SOAP
-│   └── rest/
-│       └── ServidorRest.java      # Servicio REST con HttpServer del JDK
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── umg/
+│                   ├── soap/
+│                   │   ├── SumaServicio.java      # Lógica del servicio SOAP (JAX-WS, Code First)
+│                   │   └── PublicadorSoap.java    # Publica/arranca el servicio SOAP
+│                   └── rest/
+│                       └── ServidorRest.java      # Servicio REST con HttpServer del JDK
 └── wsdl/
     └── servicio.wsdl              # Copia de referencia del WSDL generado
-\`\`\`
+```
 
 ## Cómo ejecutar el proyecto
 
