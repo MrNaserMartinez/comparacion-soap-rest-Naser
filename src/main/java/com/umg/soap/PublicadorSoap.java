@@ -9,6 +9,7 @@ public class PublicadorSoap {
 
         Endpoint.publish(url, new SumaServicio());
 
+            //Hola soy naser
         System.out.println("Servicio SOAP corriendo en: " + url);
         System.out.println("WSDL disponible en: " + url + "?wsdl");
     }
